@@ -5,6 +5,7 @@ import { HomeHeroComponent } from './home-hero/home-hero.component';
 import { HomeEpisodesComponent } from './home-episodes/home-episodes.component';
 import { HomeCharactersComponent } from './home-characters/home-characters.component';
 import { HomeCharactersCardComponent } from './home-characters/home-characters-card/home-characters-card.component';
+import { HomeNavbarComponent } from './home-navbar/home-navbar.component';
 
 
 
@@ -14,7 +15,8 @@ import { HomeCharactersCardComponent } from './home-characters/home-characters-c
     HomeHeroComponent,
     HomeEpisodesComponent,
     HomeCharactersComponent,
-    HomeCharactersCardComponent
+    HomeCharactersCardComponent,
+    HomeNavbarComponent
   ],
   imports: [
     CommonModule
