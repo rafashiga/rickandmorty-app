@@ -1,4 +1,9 @@
-# RickandmortyApp
+# Rick and morty App
+
+## Description
+This project was created with Angular, Bootstrap and [Rick and Morty GraphQL API](https://rickandmortyapi.com/)
+
+----
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
 
