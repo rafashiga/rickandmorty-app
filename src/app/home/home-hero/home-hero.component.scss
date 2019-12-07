@@ -1,0 +1,10 @@
+.hero {
+  background: #252525;
+  min-height: 200px;
+
+  &__title {
+    font-size: 56px;
+    color: #0bafc3;
+    text-shadow: 2px 0 #3f892b44, -2px 0 #3f892b44, 2px 0 #3f892b44, -2px 0 #3f892b44;
+  }
+}

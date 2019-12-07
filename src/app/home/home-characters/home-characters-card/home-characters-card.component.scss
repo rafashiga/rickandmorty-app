@@ -1,0 +1,23 @@
+.card {
+  background: #252525;
+
+  table {
+
+    td {
+      border-top: 0;
+      border-bottom: 1px solid #3f3d3d;
+      padding: 10px 0;
+      color: #9b9b9b;
+
+      &:first-of-type {
+        text-align: left;
+      }
+
+      &:nth-child(2) {
+        text-align: right;
+        color: #0bafc3;
+      }
+    }
+
+  }
+}

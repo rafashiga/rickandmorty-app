@@ -1,0 +1,10 @@
+<section class="characters">
+  <div class="container pt-5 pb-5">
+    <h3>Characters</h3>
+    <div class="row mt-3">
+      <div class="col-md-3 mb-3" *ngFor="let character of characters?.results">
+        <app-home-characters-card [character]="character"></app-home-characters-card>
+      </div>
+    </div>
+  </div>
+</section>

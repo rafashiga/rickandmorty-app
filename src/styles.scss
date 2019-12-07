@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+// global
+* {
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  padding: 0;
+}
+
+body {
+  background: rgb(27, 27, 27);
+}
+
+// fonts
+@font-face {
+  font-family: schwifty;
+  src: url(./assets/font/get_schwifty.ttf);
+}
+
+.font-schwifty {
+  font-family: schwifty;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 32px;
+
+  b,
+  strong {
+    font-weight: 800;
+  }
+}
+
+p {
+  font-weight: 100;
+
+  b,
+  strong {
+    font-weight: 800 !important;
+  }
+}

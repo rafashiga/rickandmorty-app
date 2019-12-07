@@ -1,0 +1,11 @@
+<section class="episodes">
+  <div class="container pt-5 pb-5">
+    <h3>Episodes</h3>
+    <div class="row">
+      <div *ngFor="let ep of episodes?.results" class="col-md-4 mt-4">
+        <b>{{ep.episode}}</b> <br>
+        <span>{{ep.name}}</span>
+      </div>
+    </div>
+  </div>
+</section>

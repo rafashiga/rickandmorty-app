@@ -1,0 +1,28 @@
+<div class="card">
+  <img class="card-img-top" [src]="character.image" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{character.name}}</h5>
+    <table class="table">
+      <tr>
+        <td>status</td>
+        <td>{{character.status}}</td>
+      </tr>
+      <tr>
+        <td>species</td>
+        <td>{{character.species}}</td>
+      </tr>
+      <tr>
+        <td>gender</td>
+        <td>{{character.gender}}</td>
+      </tr>
+      <tr>
+        <td>origin</td>
+        <td>{{character.origin.name}}</td>
+      </tr>
+      <tr>
+        <td>last <br> location</td>
+        <td>{{character.location.name}}</td>
+      </tr>
+    </table>
+  </div>
+</div>
