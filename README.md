@@ -5,7 +5,7 @@
 </h1>
 
 <h3 align="center">
-<strong>Testing Graphql on Angular. <a href="https://rafashiga.github.io/rickandmorty/#/" target="_blank">site</a></strong>
+<strong>Testing GraphQL on Angular. <a href="https://rafashiga.github.io/rickandmorty/#/" target="_blank">site</a></strong>
 </h3>
 
 <p align="center">
@@ -32,8 +32,9 @@
 - HTML
 - Typescript
 - SASS
+- [Apollo Angular](https://github.com/kamilkisiela/apollo-angular)
 - [Bootstrap 4](https://getbootstrap.com/)
-- [Rick and Morty API](https://rickandmortyapi.com/)
+- [Rick and Morty GraphQL API](https://rickandmortyapi.com/)
 
 ## :information_source: How to use
 
